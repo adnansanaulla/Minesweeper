@@ -1,4 +1,5 @@
 #include "Board.h"
+//Board header
 int Board::dimensions[3];
 void Board::Load(const string& someFile)
 {
