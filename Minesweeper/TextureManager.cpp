@@ -4,7 +4,8 @@ unordered_map<string, sf::Texture> TextureManager::textures;
 
 void TextureManager::LoadTexture(string textureName)
 {
-	string path = "images/" + textureName + ".png";
+	string path = "images/";
+	path += textureName + ".png";
 	textures[textureName].loadFromFile(path);
 }
 sf::Texture& TextureManager::GetTexture(string textureName)

@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include <string>
 using namespace std;
-
+//texture manager
 class TextureManager
 {
 	static unordered_map<string, sf::Texture> textures;
